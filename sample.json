@@ -1,0 +1,36 @@
+{
+"title":"JSONdata",
+"JSONdata":"LeLienSched",
+"LeLienSched":{
+  "opentime":[
+    {"named":"normalOpen","start":"09:00", "end":"17:00"},
+    {"named":"expansionOpen","start":"09:00", "end":"17:00"}
+  ],
+    "mon": {
+      "normalOpen": {"week":"all"}
+    },
+    "tue": {
+      "close":{"week":"all"}
+    },
+    "wed": {
+      "normalOpen": {"week":"all"},
+      "close":{"week":"2nd"}
+    },
+    "thu": {
+      "normalOpen": {"week":"all"}
+    },
+    "fri": {
+      "normalOpen": {"week":"all"}
+    },
+    "sat": {
+      "normalOpen": {"week":"all"},
+      "expansionOpen": {"week":"2nd"}
+    },
+    "sun": {
+      "normalOpen": {"week":"all"}
+    },
+    "hol": {
+      "normalOpen": {"week":"all"}
+    }
+  }
+}
